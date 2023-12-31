@@ -28,46 +28,28 @@ function Banner() {
                       }}
                     />
                   </div>
-                  <div className="banner-text-main-con">
-                    <div className="banner-text-con">
-                      <div className="text-con">
-                        <h1>
-                          We Offer:{" "}
-                          <strong>
-                            <span> {item.text}</span>
-                          </strong>
-                        </h1>
-                      </div>
 
-                      {/* <div className="contact">
-                        <div className="contact-ions">
-                          <div className="click">
-                            <p>Click</p>
-                            <ImPointRight className="icon" />
-                          </div>
-                          <a target="_blank" href="tel:+2348027591499">
-                            <FiPhone className="icons" />
-                          </a>
-                          <a
-                            target="_blank"
-                            href="mailto:Info@calmwatersltd.com"
-                          >
-                            <MdOutlineEmail className="icons" />
-                          </a>
-                          <a
-                            target="_blank"
-                            href="https://wa.me/+2348027591499?text= Hello ! I am"
-                          >
-                            <FaWhatsapp className="icons" />
-                          </a>
-                        </div>
-                      </div> */}
+                  <div className="banner-text-main-con">
+                    <div className="text-con">
+                      <h1>
+                        {/* <br /> */}
+                        <strong>
+                          <span> {item.text}</span>
+                        </strong>
+                      </h1>
                     </div>
                   </div>
                 </div>
               ))}
             </Fade>
           </div>
+        </div>
+        <div className="banner-bottom-img-con">
+          <h1> We Offer:</h1>
+          <img
+            src="https://res.cloudinary.com/isreal/image/upload/v1704007171/mid-bg_Background_Removed_xysu83.png"
+            alt=""
+          />
         </div>
       </div>
     </div>

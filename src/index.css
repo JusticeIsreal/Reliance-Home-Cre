@@ -16,6 +16,7 @@ body {
 .banner-main-con {
   /* background: black; */
   border: 2px solid #9a1aca;
+  background: #9a1aca;
   /* margin-top: 20px; */
 }
 .banner-main-con .carousel-main-con {
@@ -56,12 +57,6 @@ body {
   }
 }
 .banner-main-con .carousel-main-con .carousel-con .carousel-items-con .img {
-  /* -o-object-fit: cover; */
-  /* object-fit: cover; */
-  /* height: 300px;
- 
-  /* width: 100%; */
-  /* opacity: 0.5; */
   width: 100%;
   height: 100%;
 }
@@ -77,258 +72,65 @@ body {
 }
 .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con {
   position: absolute;
-  top: 120px;
-  max-width: 500px;
-  padding: 5px;
 }
 @media only screen and (min-width: 768px) {
   .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con {
-    top: 100px;
+    /* top: 100px; */
   }
 }
-@media only screen and (min-width: 1200px) {
-  .banner-main-con .carousel-main-con .carousel-con .banner-text-main-con {
-    top: 250px;
-    max-width: 900px;
-  }
+.banner-text-main-con {
+  border: 2px solid green;
+}
+.text-con {
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 335px !important;
+  z-index: 500;
+  width: 100vw;
 }
 @media only screen and (min-width: 768px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .text-con {
-    margin-left: 20px;
+  .text-con {
+    top: 530px !important;
   }
 }
-.banner-main-con
-  .carousel-main-con
-  .carousel-con
-  .banner-text-main-con
-  .text-con
-  h1 {
-  color: #f4f5fa;
-}
-@media only screen and (min-width: 768px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .text-con
-    h1 {
-    font-size: 56px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .text-con
-    h1 {
-    font-size: 100px;
-  }
-}
-.banner-main-con
-  .carousel-main-con
-  .carousel-con
-  .banner-text-main-con
-  .text-con
-  h1
-  span {
-  color: #4169e1;
-}
-.banner-main-con
-  .carousel-main-con
-  .carousel-con
-  .banner-text-main-con
-  .text-con
-  p {
-  color: #f4f5fa;
-  font-style: italic;
-}
-@media only screen and (min-width: 1200px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .text-con
-    p {
-    font-size: 20px;
-    letter-spacing: 2px;
-  }
-}
-.banner-main-con
-  .carousel-main-con
-  .carousel-con
-  .banner-text-main-con
-  .contact {
-  width: 100%;
-  margin-top: 30px;
-  z-index: 20;
-}
-@media only screen and (min-width: 768px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .contact {
-    display: block;
-  }
-}
-.banner-main-con
-  .carousel-main-con
-  .carousel-con
-  .banner-text-main-con
-  .contact
-  .contact-ions {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row;
-  border-radius: 10px;
-  width: 100%;
-  margin: 0 auto;
-}
-@media only screen and (min-width: 768px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .contact
-    .contact-ions {
-    margin-left: 0;
-    border: none;
-    background: rgba(0, 0, 0, 0.1647058824);
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .contact
-    .contact-ions {
-    padding: 5px;
-  }
-}
-.banner-main-con
-  .carousel-main-con
-  .carousel-con
-  .banner-text-main-con
-  .contact
-  .contact-ions
-  .click {
-  left: 0;
-  text-align: center;
-  margin: 5px;
-  color: #342e37;
-  padding: 5px;
-  display: none;
-}
-@media only screen and (min-width: 768px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .contact
-    .contact-ions
-    .click {
-    color: #f4f5fa;
-    display: block;
-  }
-}
-.banner-main-con
-  .carousel-main-con
-  .carousel-con
-  .banner-text-main-con
-  .contact
-  .contact-ions
-  .click
-  p {
-  font-size: 15px;
-}
-@media only screen and (min-width: 1200px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .contact
-    .contact-ions
-    .click
-    p {
-    font-size: 20px;
-  }
-}
-.banner-main-con
-  .carousel-main-con
-  .carousel-con
-  .banner-text-main-con
-  .contact
-  .contact-ions
-  .click
-  .icon {
+.text-con h1 {
+  color: white;
   font-size: 20px;
-  animation: pointing 2s ease-in-out infinite;
 }
-@media only screen and (min-width: 1200px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .contact
-    .contact-ions
-    .click
-    .icon {
+.text-con h1 span {
+  font-size: 30px;
+  font-family: TiemposHeadline-Semibold, serif;
+}
+@media only screen and (min-width: 768px) {
+  .text-con h1 {
+    color: white;
+    font-size: 25px;
+  }
+  .text-con h1 span {
     font-size: 40px;
   }
 }
-@keyframes pointing {
-  0% {
-    transform: translateX(10px);
-  }
-  50% {
-    transform: translateX(0px);
-  }
-  100% {
-    transform: translateX(10px);
-  }
+.banner-bottom-img-con {
+  width: 100%;
+  position: relative;
+  margin-top: -35px;
+  overflow: hidden;
 }
-.banner-main-con
-  .carousel-main-con
-  .carousel-con
-  .banner-text-main-con
-  .contact
-  .contact-ions
-  .icons {
-  font-size: 40px;
-  color: #f4f5fa;
-  margin: 5px;
-  font-weight: bolder;
-  cursor: pointer;
-  background: #4169e1;
-  border-radius: 5px;
-  width: 100px;
-  height: 50px;
-  padding: 10px;
+.banner-bottom-img-con h1 {
+  position: absolute;
+  color: white;
+  top: 50px;
 }
-@media only screen and (min-width: 1200px) {
-  .banner-main-con
-    .carousel-main-con
-    .carousel-con
-    .banner-text-main-con
-    .contact
-    .contact-ions
-    .icons {
-    font-size: 70px;
+.banner-bottom-img-con img {
+  width: 100%;
+  height: 150px;
+}
+@media only screen and (min-width: 1000px) {
+  .banner-bottom-img-con {
+    margin-top: -50px;
   }
-}
-.banner-main-con
-  .carousel-main-con
-  .carousel-con
-  .banner-text-main-con
-  .contact
-  .contact-ions
-  .icons:hover {
-  transform: scale(0.9);
+  .banner-bottom-img-con img {
+    height: 200px;
+    /* border: 2px solid red; */
+  }
 }

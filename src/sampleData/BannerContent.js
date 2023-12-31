@@ -9,7 +9,7 @@ const BannerContents = [
     id: 2,
     image:
       "https://res.cloudinary.com/isreal/image/upload/v1704003239/6052491503_1819915b6a_o_b9owp5.jpg",
-    text: "24 Hour In Home Care",
+    text: "24/7 In HomeCare Services",
   },
   {
     id: 3,
@@ -19,15 +19,15 @@ const BannerContents = [
   },
   {
     id: 4,
+    text: "Physical Therapy Services",
     image:
       "https://res.cloudinary.com/isreal/image/upload/v1704004339/How-Much-Does-24-7-Home-Care-Cost_mqa8ym.jpg",
-    text: "Home Health Services",
   },
   {
     id: 5,
     image:
       "https://res.cloudinary.com/isreal/image/upload/v1704004473/inhomecare-post-eqc2-1170x585-1-877x585_maorfz.jpg",
-    text: "Home Health Aid",
+    text: "Medical Social Services",
   },
 ];
 
