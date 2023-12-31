@@ -1,16 +1,8 @@
-import { useEffect, useState } from "react";
-// import Link from "next/link";
-// import Image from "next/image";
 import { Fade, Slide } from "react-slideshow-image";
-// import BannerImg from "../../components/Asset/Bannerimages";
-import { ImPointRight } from "react-icons/im";
-import { FiPhone } from "react-icons/fi";
-import { MdOutlineEmail } from "react-icons/md";
-import { FaWhatsapp } from "react-icons/fa";
 import BannerContents from "../sampleData/BannerContent";
 function Banner() {
   return (
-    <div className="banner-main-con">
+    <div className="banner-main-con lg:px-15 xl:px-20 xl:mt-40">
       <div className="content">
         {/* SIAPLAYING PRODUCTS IMAGES*/}
         <div className="carousel-main-con">
@@ -28,12 +20,10 @@ function Banner() {
                       }}
                     />
                   </div>
-
                   <div className="banner-text-main-con">
                     <div className="text-con">
                       <h1>
                         We Offer:
-                        {/* <br /> */}
                         <strong>
                           <span> {item.text}</span>
                         </strong>

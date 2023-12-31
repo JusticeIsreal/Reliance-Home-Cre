@@ -26,14 +26,15 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" fixed w-full z-10 text-white">
+    <div className=" fixed w-full z-10 text-[#9a1aca]">
       <div>
-        <div className=" flex flex-row justify-between p-5 lg:px-20 px-5 bg-[#9a1aca] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+        <div className=" flex flex-row justify-between p-5 lg:px-15 xl:px-20 px-5 bg-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
           <div className=" flex flex-row items-center cursor-pointer">
             <Link to="home" spy={true} smooth={true} duration={500}>
               <img
-                src="https://res.cloudinary.com/isreal/image/upload/v1704001832/footer-logo-removebg-preview_jplsr9.png"
+                src="https://res.cloudinary.com/isreal/image/upload/v1704047846/company-logo-removebg-preview_tfofbq.png"
                 alt=""
+                style={{ width: "200px" }}
               />
             </Link>
           </div>
@@ -118,7 +119,7 @@ const Navbar = () => {
         <div
           className={`${
             menu ? "translate-x-0" : "-translate-x-full"
-          } lg:hidden flex flex-col absolute bg-[#9a1aca] text-white left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
+          } lg:hidden flex flex-col absolute  bg-white text-[#9a1aca] left-0 top-16 font-semibold text-2xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
         >
           <Link
             to="home"

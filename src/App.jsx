@@ -19,7 +19,7 @@ const App = () => {
           <Home />
         </div>
 
-        <div id="about">
+        <div id="about" >
           <About />
         </div>
 
@@ -30,7 +30,7 @@ const App = () => {
         <div id="reviews">
           <Reviews />
         </div>
-        
+
         <div id="FAQs">
           <FAQs />
         </div>
