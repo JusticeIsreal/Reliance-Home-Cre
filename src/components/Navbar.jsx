@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <div className=" fixed w-full z-10 text-white">
       <div>
-        <div className=" flex flex-row justify-between p-5 md:px-32 px-5 bg-[#9a1aca] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+        <div className=" flex flex-row justify-between p-5 lg:px-20 px-5 bg-[#9a1aca] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
           <div className=" flex flex-row items-center cursor-pointer">
             <Link to="home" spy={true} smooth={true} duration={500}>
               <img
@@ -160,7 +160,6 @@ const Navbar = () => {
           >
             Blog
           </Link>
-
           <div className=" lg:hidden">
             <button
               className="bg-brightColor text-white px-4 py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"

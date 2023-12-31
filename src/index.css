@@ -111,7 +111,6 @@ body {
 }
 @media only screen and (min-width: 768px) {
   .text-con h1 {
-    color: white;
     font-size: 25px;
   }
   .text-con h1 span {
@@ -156,6 +155,25 @@ body {
   flex-direction: column;
   color: white;
 }
+@media only screen and (min-width: 768px) {
+  .banner-bottom-img-con .contact-details {
+    bottom: 20px;
+  }
+  .banner-bottom-img-con .contact-details .contact-details-sub-con p {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .banner-bottom-img-con .contact-details .contact-details-sub-con {
+    justify-content: space-around;
+  }
+  .banner-bottom-img-con .contact-details {
+    bottom: 50px;
+  }
+  .banner-bottom-img-con .contact-details .contact-details-sub-con p {
+    font-size: 15px;
+  }
+}
 .banner-bottom-img-con img {
   width: 100%;
   height: 100px;
@@ -167,5 +185,10 @@ body {
   .banner-bottom-img-con img {
     height: 200px;
     /* border: 2px solid red; */
+  }
+  .banner-bottom-img-con .contact-details .contact-details-sub-con p {
+    /* border: 2px solid green; */
+    font-size: 20px;
+    width: 30%;
   }
 }

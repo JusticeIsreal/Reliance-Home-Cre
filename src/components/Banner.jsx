@@ -54,14 +54,15 @@ function Banner() {
               <p>
                 Address: <i>1730 Park Street Suite 214 Naperville IL 60563</i>{" "}
               </p>
-              <div>
-                <button
+              <p>
+                <a
+                  href="tel:+1-630-317-7083"
+                  style={{ maxWidth: "200px", margin: "0 auto" }}
                   className="bg-brightColor text-white px-2 py-1 md:px-4 md:py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
-                  //   onClick={openForm}
                 >
                   Contact Us
-                </button>
-              </div>
+                </a>
+              </p>
             </div>
           </div>
           <img
