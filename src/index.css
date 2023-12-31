@@ -134,7 +134,7 @@ body {
 }
 .banner-bottom-img-con .contact-details {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   /* border: 2px solid red; */
   width: 100%;
   height: 50px;
@@ -148,7 +148,13 @@ body {
   padding: 0px 5px;
 }
 .banner-bottom-img-con .contact-details .contact-details-sub-con p {
-  border: 2px solid green;
+  /* border: 2px solid green; */
+  font-size: 10px;
+  width: 30%;
+  word-break: break-all;
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
 .banner-bottom-img-con img {
   width: 100%;
