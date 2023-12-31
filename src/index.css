@@ -83,7 +83,7 @@ body {
   /* border: 2px solid red; */
   position: absolute;
   top: 135px !important;
-  z-index: 500;
+
   width: 100vw;
 }
 @media only screen and (min-width: 768px) {
@@ -132,14 +132,27 @@ body {
   margin-top: -35px;
   overflow: hidden;
 }
-.banner-bottom-img-con h1 {
+.banner-bottom-img-con .contact-details {
   position: absolute;
-  color: white;
-  top: 50px;
+  bottom: 0;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 50px;
+}
+.banner-bottom-img-con .contact-details .contact-details-sub-con {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+}
+.banner-bottom-img-con .contact-details .contact-details-sub-con p {
+  border: 2px solid green;
 }
 .banner-bottom-img-con img {
   width: 100%;
-  height: 150px;
+  height: 100px;
 }
 @media only screen and (min-width: 1000px) {
   .banner-bottom-img-con {

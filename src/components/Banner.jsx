@@ -46,7 +46,20 @@ function Banner() {
           </div>
         </div>
         <div className="banner-bottom-img-con">
-          <h1> We Offer:</h1>
+          <div className="contact-details">
+            <div className="contact-details-sub-con">
+              <p>hjsdgf</p>
+              <p>dsgsf</p>
+              <div>
+                <button
+                  className="bg-brightColor text-white px-2 py-1 md:px-4 md:py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
+                  //   onClick={openForm}
+                >
+                  Contact Us
+                </button>
+              </div>
+            </div>
+          </div>
           <img
             src="https://res.cloudinary.com/isreal/image/upload/v1704007171/mid-bg_Background_Removed_xysu83.png"
             alt=""
