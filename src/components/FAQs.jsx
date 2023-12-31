@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 
-const Doctors = () => {
+const FAQs = () => {
   const data = [
     {
       img: "/src/assets/img/doc1.jpg",
@@ -83,7 +83,7 @@ const Doctors = () => {
       <div className=" flex flex-col items-center lg:flex-row justify-between mb-10 lg:mb-0">
         <div>
           <h1 className=" text-4xl font-semibold text-center lg:text-start">
-            Our Doctors
+            Our FAQs
           </h1>
           <p className=" mt-2 text-center lg:text-start">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
@@ -132,4 +132,4 @@ const Doctors = () => {
   );
 };
 
-export default Doctors;
+export default FAQs;
