@@ -1,5 +1,18 @@
 const BannerContents = [
   {
+    id: 5,
+    image:
+      "https://res.cloudinary.com/isreal/image/upload/v1704004473/inhomecare-post-eqc2-1170x585-1-877x585_maorfz.jpg",
+    text: "Medical Social Services",
+  },
+  {
+    id: 4,
+    text: "Physical Therapy Services",
+    image:
+      "https://res.cloudinary.com/isreal/image/upload/v1704004339/How-Much-Does-24-7-Home-Care-Cost_mqa8ym.jpg",
+  },
+
+  {
     id: 1,
     image:
       "https://res.cloudinary.com/isreal/image/upload/v1704002987/2228285524_f3ed8b5659_o_lusabj.jpg",
@@ -16,18 +29,6 @@ const BannerContents = [
     image:
       "https://res.cloudinary.com/isreal/image/upload/v1704003363/7346203738_b650a5d21b_o_jfbiym.jpg",
     text: "Speech Therapy Services",
-  },
-  {
-    id: 4,
-    text: "Physical Therapy Services",
-    image:
-      "https://res.cloudinary.com/isreal/image/upload/v1704004339/How-Much-Does-24-7-Home-Care-Cost_mqa8ym.jpg",
-  },
-  {
-    id: 5,
-    image:
-      "https://res.cloudinary.com/isreal/image/upload/v1704004473/inhomecare-post-eqc2-1170x585-1-877x585_maorfz.jpg",
-    text: "Medical Social Services",
   },
 ];
 

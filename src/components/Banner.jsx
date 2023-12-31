@@ -32,6 +32,7 @@ function Banner() {
                   <div className="banner-text-main-con">
                     <div className="text-con">
                       <h1>
+                        We Offer:
                         {/* <br /> */}
                         <strong>
                           <span> {item.text}</span>

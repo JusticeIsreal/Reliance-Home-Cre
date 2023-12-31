@@ -43,7 +43,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-
 }
 @media only screen and (min-width: 768px) {
   .banner-main-con .carousel-main-con .carousel-con .carousel-items-con {
@@ -78,26 +77,36 @@ body {
   }
 }
 .banner-text-main-con {
-  border: 2px solid green;
+  border: 2px solid rgba(0, 128, 0, 0);
 }
 .text-con {
   /* border: 2px solid red; */
   position: absolute;
-  top: 335px !important;
+  top: 135px !important;
   z-index: 500;
   width: 100vw;
 }
 @media only screen and (min-width: 768px) {
   .text-con {
-    top: 530px !important;
+    top: 260px !important;
+    width: 600px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .text-con {
+    top: 400px !important;
+    width: 900px;
   }
 }
 .text-con h1 {
   color: white;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
 }
 .text-con h1 span {
-  font-size: 30px;
+  font-size: 45px;
   font-family: TiemposHeadline-Semibold, serif;
 }
 @media only screen and (min-width: 768px) {
@@ -106,7 +115,15 @@ body {
     font-size: 25px;
   }
   .text-con h1 span {
-    font-size: 40px;
+    font-size: 70px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .text-con h1 {
+    font-size: 25px;
+  }
+  .text-con h1 span {
+    font-size: 110px;
   }
 }
 .banner-bottom-img-con {
