@@ -43,8 +43,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  /* width: 100vw; */
-  /* border: 2px solid red; */
+
 }
 @media only screen and (min-width: 768px) {
   .banner-main-con .carousel-main-con .carousel-con .carousel-items-con {
