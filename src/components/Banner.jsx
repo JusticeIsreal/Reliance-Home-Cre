@@ -48,12 +48,6 @@ function Banner() {
         <div className="banner-bottom-img-con">
           <div className="contact-details">
             <div className="contact-details-sub-con">
-              <p>
-                email: <i>info@reliancecaregroup.com</i>
-              </p>
-              <p>
-                Address: <i>1730 Park Street Suite 214 Naperville IL 60563</i>{" "}
-              </p>
               <div>
                 <button
                   className="bg-brightColor text-white px-2 py-1 md:px-4 md:py-2 rounded-md hover:bg-hoverColor transition duration-300 ease-in-out"
@@ -62,6 +56,12 @@ function Banner() {
                   Contact Us
                 </button>
               </div>
+              <p>
+                email: <i>info@reliancecaregroup.com</i>
+              </p>
+              <p>
+                Address: <i>1730 Park Street Suite 214 Naperville IL 60563</i>{" "}
+              </p>
             </div>
           </div>
           <img
