@@ -52,7 +52,7 @@ body {
 }
 @media only screen and (min-width: 1200px) {
   .banner-main-con .carousel-main-con .carousel-con .carousel-items-con {
-    height: 750px;
+    height: 650px;
   }
 }
 .banner-main-con .carousel-main-con .carousel-con .carousel-items-con .img {
@@ -97,7 +97,7 @@ body {
 }
 @media only screen and (min-width: 1200px) {
   .text-con {
-    top: 400px !important;
+    top: 300px !important;
     width: 900px;
   }
 }
@@ -185,7 +185,7 @@ body {
 }
 @media only screen and (min-width: 1200px) {
   .banner-bottom-img-con {
-    margin-top: 160px;
+    margin-top: 100px;
     /* margin-top: auto; */
   }
   .banner-bottom-img-con img {
@@ -212,7 +212,7 @@ body {
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
 
-    height: 500px;
+    /* height: 500px; */
   }
   .about-us-img img {
     object-fit: contain;

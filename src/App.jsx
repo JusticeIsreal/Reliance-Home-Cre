@@ -19,7 +19,7 @@ const App = () => {
           <Home />
         </div>
 
-        <div id="about" >
+        <div id="about" className="xl:px-10">
           <About />
         </div>
 
