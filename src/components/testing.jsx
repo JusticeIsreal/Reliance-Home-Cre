@@ -49,24 +49,4 @@ export default function App() {
   );
 }
 
-// * render products on the page (DON'T STYLE)
-// * build a cart, allowing user to add/remove items
-// * show $ total of the cart
 
-// [
-//   {
-//      id: 248,
-//      name: 'Apple',
-//      price: 2
-//   },
-//   {
-//      id: 486,
-//      name: 'Orange',
-//      price: 4
-//   },
-//   {
-//      id: 938,
-//      name: 'Banana',
-//      price: 3
-//   }
-// ]
